@@ -1,0 +1,14 @@
+[package]
+name = "api_connect"
+version = "0.1.0"
+authors = ["Manuel Danner"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.3"
+configparser = "2.0.0"
+reqwest ={ version = "0.11.2", features =["blocking", "json"]}
+serde = "1.0.124"
+serde_json = "1.0.64"
